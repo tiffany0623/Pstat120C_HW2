@@ -1,0 +1,77 @@
+---
+title: "Pstat120C Homewrok 2"
+author: "Yu Tian"
+date: "2022-08-17"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      results = 'markup',
+                      fig.width = 4,
+                      fig.height = 3,
+                      fig.align = 'center',
+                      message = F,
+                      warning = F)
+```
+
+
+# Reading  
+
+The purpose of this portion of the assignment is to guide your reading and help you generate concise reading notes that list the key concepts – generally, terminology, definitions, and theorems. For the submission, treat each bullet point as an exercise and submit your ‘answers’ as you would a problem set.
+
+1. Write the general equation for a multiple linear regression model.
+
+#### Answer:
+
+
+2. Write the least-squares equations for a multiple linear regression in matrix form.
+
+#### Answer:  
+
+3. State the test statistic and confidence interval formulas for a linear function of parameters in multiple linear regression.
+
+#### Answer:  
+
+
+4. Describe the general process of testing the hypothesis that $\beta_1 = \beta_2 = \cdots = \beta_k = 0$.  
+
+#### Answer: 
+
+
+# Practice
+The purpose of this portion of the assignment is to help you practice applying concepts in the reading, and in some cases, establish results that will be used later on. Remember that you will be graded on problem attempts, not solutions; do your best and ask questions if you get stuck.
+
+1. 1. Consider the general linear model $Y= \beta_0 + \beta_1x_1 + + \beta_2x_2 + \cdots + \beta_kx_k + \epsilon$, where $\mathit{E}[\epsilon] = 0$ and $\mathit{V}(\epsilon) = \sigma^2$. Notice that βˆ1 = a0βˆ, where the vector a is defined by aj = 1 if j = i and aj = 0 if j 6= i.Use this to verify that E[βˆ1] = βi and V (βˆi) = ciiσ2, where cii is the element in row i and column i of(X0X)−1.
+
+#### Answer:
+
+2. A real estate agent’s computer data listed the selling price Y (in thousands of dollars), the living area x1 (in hundreds of square feet), the number of floors x2, number of bedrooms x3, and number of bathrooms x4 for newly listed condominiums. The multiple regression model E(Y ) = β0+β1x1+β2x2+β3x3+β4x4 was fit to the data obtained by randomly selecting 40 condos currently on the market. 
+
+(a) If R2 = 0.942, is there sufficient evidence to conclude that at least one of the independent variables contributes significant information for the prediction of selling price?
+
+(b) If Syy = 16382.2, what is SSE?
+
+(c) The realtor theorizes that square footage, x1, is the most important predictor variable, and that the other variables can be left out without losing much prediction information. A simple linear regression of selling price vs. square footage was fit using the same 40 condos, and its SSE was 1553. Can the other independent variables, x2, x3, andx4 be dropped from the model without losing predictive information? Test at the α = 0.05 significance level.
+
+
+
+3. A response Y is a function of three independent variables x1, x2, and x3 that are related as follows: Y = β0 + β1x1 + β2x2 + β3x3 +
+
+(a) Fit this model to the n = 7 data points shown in the accompanying table.
+
+(b) Predict Y when x1 = 1, x2 = −3, x3 = −1. Compare the result with the observed data in row 5 of the table. Why are these values not equal?
+
+(c) Do the data present sufficient evidence to indicate that x3 contributes information for the prediction of Y ? Test the hypothesis H0 : β3 = 0, using α = 0.05
+
+
+
+
+
+
+
